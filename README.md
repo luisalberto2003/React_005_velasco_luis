@@ -15,27 +15,21 @@ cd reminders-front
 
 ```
 
-
 2. **Instalar las dependencias de React:**
 ```bash
 npm install
 
 ```
-
-
 3. **Instalar y configurar Tailwind CSS (v4):**
 ```bash
 npm install @tailwindcss/postcss tailwindcss postcss autoprefixer
 
 ```
 
-
 4. **Asegurar la estructura de carpetas:**
 Crea las carpetas necesarias dentro de `src/`:
 * `src/components/`
 * `src/services/`
-
-
 
 ---
 
@@ -49,11 +43,10 @@ npm run dev
 
 ```
 
-
 2. **Acceder a la aplicación:**
 Abre tu navegador en la dirección: `http://localhost:5173`
 
-> **Nota sobre el Backend:** Por defecto, la aplicación está configurada para conectarse a la API alojada en AWS: `http://ec2-3-236-168-225.compute-1.amazonaws.com/api/v1`.
+**Nota sobre el Backend:** Por defecto, la aplicación está configurada para conectarse a la API alojada en AWS: `http://ec2-3-236-168-225.compute-1.amazonaws.com/api/v1`.
 
 ---
 
@@ -93,22 +86,8 @@ Indicador visual de carga que mejora la **experiencia de usuario (UX)** durante 
 
 Capa de abstracción que centraliza todas las peticiones `fetch` utilizando el patrón de servicio. Esto desacopla la lógica de red de la lógica visual de React.
 
----
 
-## Capturas de Pantalla
-
-> *Añade aquí las imágenes de tu proyecto una vez que esté corriendo.*
-
-| Pantalla Principal | Formulario de Creación |
-| --- | --- |
-|  |  |
-
----
-
-## Conceptos Clave Aplicados
-
-* **Lifting State Up:** Elevación del estado al ancestro común (`App`) para sincronizar hermanos.
-* **Hooks:** Uso intensivo de `useState` para reactividad y `useEffect` para efectos secundarios.
-* **Responsive Design:** Interfaz adaptativa mediante **Tailwind CSS**.
-
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
 ---
